@@ -1,0 +1,58 @@
+/* ------------------ PROGRESS BARS ---------------- */
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+  font-size: 16px;
+}
+
+/*** <--- CIRCLE STYLES ---> ***/
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #E6E2C3;
+  overflow: hidden;
+}
+
+.circle.per-60{
+  background-image: conic-gradient(var(--actual-1) 60%, #E6E2C3 0);
+}
+
+.circle.per-80{
+  background-image: conic-gradient(var(--actual-1) 80%, #E6E2C3 0);
+}
+
+.circle.per-90 {
+  background-image: conic-gradient(var(--actual-1) 90%, #E6E2C3 0);
+}
+
+
+.circle.per-100 {
+  background-image: conic-gradient(var(--actual-1) 100%, #E6E2C3 0);
+}
+
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: var(--actual-2);
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+

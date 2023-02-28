@@ -1,0 +1,110 @@
+
+/* ---------- COLORES BASE ----------- */
+
+:root{
+    --modo-A-1:#1C315E;
+    --modo-A-2:#227C70;
+    --modo-A-3:#88A47C;
+    --modo-A-4:#E6E2C3;
+
+    --modo-B-1:#470D21;
+    --modo-B-2:#9C0F48;
+    --modo-B-3:#D67D3E;
+    --modo-B-4:#F9E4D4;
+
+    --modo-C-1:#395144;
+    --modo-C-2:#4E6C50;
+    --modo-C-3:#AA8B56;
+    --modo-C-4:#F0EBCE;
+
+    --actual-1: var(--modo-A-1);
+    --actual-2: var(--modo-A-2);
+    --actual-3: var(--modo-A-3);
+    --actual-4: var(--modo-A-4)
+}
+
+
+
+.color4{ background-color: var(--actual-4);}
+.txt-color4{ color: var(--actual-4);}
+
+.color3{ background-color: var(--actual-3);}
+.txt-color3{ color: var(--actual-3);}
+
+.color2{ background-color: var(--actual-2);}
+.txt-color2{ color: var(--actual-2);}
+
+.color1{ background-color: var(--actual-1);}
+.txt-color1{ color: var(--actual-1);}
+
+/* ---------------------------------- */
+
+/* --------- GENERAL */
+::-webkit-scrollbar{
+    height: 20px;
+}
+
+
+::-webkit-scrollbar-track{
+    background: var(--actual-1);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--actual-4);
+    border: solid 3px var(--actual-1);
+    border-radius: 10px;
+}
+
+
+h1, h2, h3, h4, h5{
+    font-family: 'IBM Plex Sans', monospace;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+#inicio{
+    height: 85vh;
+    background-image: linear-gradient(to right, var(--actual-1), var(--actual-1)), url(../images/fondo_inicio.jpg);
+    background-size: cover;
+    background-blend-mode: multiply, color;
+}
+  
+#foto_inicio{
+    width: 250px;
+    height: 250px;
+}
+
+
+#foto-sobre-mi{
+    object-fit: cover;
+    height: 300px !important;
+}
+
+#separador-1{
+    height: 3px;
+    width: 100px;
+    color:var(--actual-4);
+    background-color: var(--actual-4);
+}
+
+.punteo-estudios{
+    border-top-left-radius: 65px !important;
+}
+
+.div-logos{
+    height: 100px;
+    width: 100px;
+}
+
+#footer{
+    background-image: linear-gradient(to right, var(--actual-1), var(--actual-1)), url(../images/fondo_inicio.jpg);
+    background-size: cover;
+    background-blend-mode: multiply, color;
+    background-position: 50%;
+}
+
+.modos{
+    cursor: pointer;
+}

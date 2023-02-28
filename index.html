@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ticmas</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!-- FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/09a6821d14.js" crossorigin="anonymous"></script>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap" rel="stylesheet">
+
+    <!-- ESTILOS -->
+    <script src="./js/modo.js"></script> <!-- Colocado en el head para que cargue el modo elegido por el usuario antes que todos los estilos -->
+    <link href="css/extra.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="inicio">
+        <nav class="navbar navbar-expand-lg py-5 container">
+            <div class="container-fluid justify-content-end">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item text-end mt-2 mt-lg-0">
+                            <a class="fs-5 me-lg-5 text-light text-decoration-none" aria-current="page" href="#inicio">Home</a>
+                        </li>
+                        <li class="nav-item text-end mt-2 mt-lg-0">
+                            <a class="fs-5 me-lg-5 text-light text-decoration-none" href="#sobre-mi">Sobre mi</a>
+                        </li>
+                        <li class="nav-item text-end mt-2 mt-lg-0">
+                            <a class="fs-5 me-lg-5 text-light text-decoration-none" href="#estudios">Estudios</a>
+                        </li>
+                        <li class="nav-item text-end mt-2 mt-lg-0">
+                            <a class="fs-5 me-lg-5 text-light text-decoration-none" href="#experiencias">Experiencia</a>
+                        </li>
+                        <li class="nav-item text-end mt-2 mt-lg-0">
+                            <a class="fs-5 me-lg-5 text-light text-decoration-none" href="#contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item text-end mt-2 mt-lg-0 d-flex">
+                            <p class="fs-5 me-lg-5 text-light modos" id="modo-A"><i class="fa-solid fa-moon"></i></p>
+                            <p class="fs-5 me-lg-5 text-light modos opacity-50" id="modo-B"><i class="fa-solid fa-fire p-0 m-0"></i></p>
+                            <p class="fs-5 me-lg-5 text-light modos opacity-50" id="modo-C"><i class="fa-solid fa-leaf p-0 m-0"></i></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column justify-content-center align-items-center h-75">
+            <img src="/images/foto_carnet.jpg" id="foto_inicio" class="col-12 m-0 rounded-circle mb-3" alt="foto personal tipo carnet">
+            <h1 class="text-center display-1  text-light fw-bold col-12 lh-1">Kim Hunter</h1>
+            <p class="text-light  fs-6 m-0 p-0 lh-1"> Desarrollo web, eficiencia y compromiso</p>
+        </div>
+    </div>
+
+    <div id="sobre-mi" class="color1 py-5">
+        <div class="py-4">
+            <div class="d-flex flex-lg-row flex-column align-items-center align-content-lg-between justify-content-center col-12">
+                <img src="/images/foto_completa.jpg" id="foto-sobre-mi" class="col-10 col-lg-3 rounded-3 m-0" alt="foto personal de cuerpo completo">
+                <div class="col-lg-7 col-10 ms-lg-5 mt-5 mt-lg-0 d-flex flex-column">
+                    <h2 class="display-4 text-light  fw-bold lh-1 m-0">Sobre mi</h2>
+                    <hr id="separador-1" class="mt-2">
+                    <p class="text-light lh-base m-0"> 
+                    Soy una desarrolladora web basada en Buenos Aires, Argentina. Me especializo en diseño front-end y planeo profundizar mis habilidades de manejo de bases de datos y otras herramientas
+                    de back-end para centrarme en el desarrollo full-stack. Constantemente busco iniciar y concretar nuevos proyectos, poniendo en juego mis capacidades y desafiándome a seguir aprendiendo.
+                    No le temo a nuevas experiencias, ya sean educativas o laborales, pues veo en todas ellas oportunidades de seguir creciendo, como persona y como profesional. </p>
+    
+                </div>
+            </div>
+
+            <div class="d-flex overflow-hidden justify-content-center mt-5">
+
+                <div class="row g-3 col-10 col-lg-11">
+                    <div class="col-12 col-lg-1 p-1 px-2">
+                        <div class="d-flex h-100 flex-lg-column flex-row justify-content-between align-items-center ">
+                            <i class="fa-solid fa-user text-light fs-5 opacity-50"></i>
+                            <i class="fa-solid fa-at text-light fs-5 opacity-50"></i>
+                            <i class="fa-solid fa-code text-light fs-5 opacity-50"></i>
+                            <i class="fa-solid fa-face-smile text-light fs-5 opacity-50"></i>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex align-items-stretch">
+                        <div class="d-flex flex-column col-12 rounded-3 border p-4">
+                            <h4 class="text-light fw-bold text-center mb-3">Información personal</h4>  
+                            <hr class="mt-2 text-center text-light">
+                            <div class="d-flex flex-column flex-grow-1 justify-content-center">
+                                <p class="text-light text-center"><span class="fw-bold"> Nombre:</span> Kim Hunter</p>  
+                                <p class="text-light text-center"><span class="fw-bold"> Fecha de nacimiento:</span> 07/04/1984</p>  
+                                <p class="text-light text-center m-0"><span class="fw-bold"> Dirección:</span> Bulnes 2240, Ciudad Autónoma de Bs. As., Argentina </p> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex align-items-stretch">
+                        <div class="d-flex flex-column col-12 rounded-3 border p-4">
+                            <h4 class="text-light fw-bold text-center mb-3">Datos de contacto</h4>
+                            <hr class="mt-2 text-center text-light">
+                            <div class="d-flex flex-column flex-grow-1 justify-content-center">
+                                <p class="text-light text-center"><span class="fw-bold"> E-mail:</span> kim.hunter@gmail.com</p>  
+                                <p class="text-light text-center"><span class="fw-bold"> Linkedin: </span> Kim Hunter</p>  
+                                <p class="text-light text-center m-0"><span class="fw-bold"> Celular:</span> 15 11 1234-5678 </p>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex align-items-stretch">
+                        <div class="d-flex flex-column col-12 rounded-3 border p-4">
+                            <h4 class="text-light fw-bold text-center mb-3">Intereses y gustos</h4>
+                            <hr class="mt-2 text-center text-light">
+                            <div class="d-flex flex-column flex-grow-1 justify-content-center">
+                                <p class="text-light text-center">El crochet</p>  
+                                <p class="text-light text-center">Los gatos</p>
+                                <p class="text-light text-center m-0">La playa y el mar</p> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-1 p-1 px-2">
+                        <div class="d-flex h-100 flex-lg-column flex-row justify-content-between align-items-center ">
+                            <i class="fa-solid fa-user text-light fs-5 opacity-50"></i>
+                            <i class="fa-solid fa-at text-light fs-5 opacity-50"></i>
+                            <i class="fa-solid fa-code text-light fs-5 opacity-50"></i>
+                            <i class="fa-solid fa-face-smile text-light fs-5 opacity-50"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="estudios" class="color2 py-5">
+        <div class="d-flex flex-column align-items-center py-4">
+            <div class="d-flex flex-column col-10">
+                <h2 class="display-4 text-light text-start fw-bold lh-1 m-0">Estudios</h2>
+            </div>
+
+            <div class="row g-3 col-10 m-0">
+                <div class="col-12">
+                    <div class="p-3 border rounded-3 punteo-estudios d-flex flex-column flex-sm-row">
+                        <div class="color4 p-4 rounded-circle div-logos">
+                            <img src="images/logos/utn.svg" alt="logo-utn" height="50px" width="50px">
+                        </div>
+                        <div class="flex-grow-1 p-0 p-sm-2 mt-2 mt-sm-0">
+                            <h4 class="text-light ms-sm-4">Universidad Tecnológica Nacional. <span class="fw-bold">Ingenieria.</span></h4>
+                            <p class="text-light ms-sm-4 fs-3 mb-0">Ingenieria en sistemas de informacion (2002-2007)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="p-3 border rounded-3 punteo-estudios d-flex flex-column flex-sm-row">
+                        <div class="color4 p-4 rounded-circle div-logos">
+                            <img src="images/logos/utn.svg" alt="logo-utn" height="50px" width="50px">
+                        </div>
+                        <div class="flex-grow-1 p-0 p-sm-2 mt-2 mt-sm-0">
+                            <h4 class="text-light ms-sm-4">Universidad Tecnológica Nacional. <span class="fw-bold">Ingles UTN.</span></h4>
+                            <p class="text-light ms-sm-4 fs-3 mb-0">Certificado de ingles avanzado (2003) </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="p-3 border rounded-3 punteo-estudios d-flex flex-column flex-sm-row">
+                        <div class="color4 p-4 rounded-circle div-logos">
+                            <img src="images/logos/ticmas.png" alt="logo-ticmas" height="50px" width="50px">
+                        </div>
+                        <div class="flex-grow-1 p-0 p-sm-2 mt-2 mt-sm-0">
+                            <h4 class="text-light ms-sm-4">Programa Argentina Programa 4.0 - <span class="fw-bold">Ticmas Academy.</span></h4>
+                            <p class="text-light ms-sm-4 fs-3 mb-0">Introducción, Primeros pasos en Front-end (2022-2023)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column col-10 mt-5 mb-4">
+                <h2 class="display-4 text-light text-end fw-bold lh-1 m-0">Habilidades</h2>
+            </div>
+
+            <div class="d-flex justify-content-around align-items-center col-10 flex-wrap">
+                <div class="d-flex flex-column align-items-center">
+                    <div class="circle per-80">
+                        <div class="inner">
+                            <img src="./images/logos/python.png" alt="logo de python" height="100px">
+                        </div>
+                    </div>
+                    <p class="text-light lh-1 m-0 fs-2 mt-2">80%</p>
+                    <p class="text-light m-0 opacity-50">Python</p>
+                </div>
+                
+                <div class="d-flex flex-column align-items-center mt-3 mt-md-0">
+                    <div class="circle per-90">
+                        <div class="inner">
+                            <img src="./images/logos/js.png" alt="logo de javascript" height="90px" class="pt-2">
+                        </div>
+                    </div>
+                    <p class="text-light lh-1 m-0 fs-2 mt-2">90%</p>
+                    <p class="text-light m-0 opacity-50">JavaScript</p>
+                </div>
+                
+
+                <div class="d-flex flex-column align-items-center mt-3 mt-md-0">
+                    <div class="circle per-90">
+                        <div class="inner">
+                            <img src="./images/logos/html.png" alt="logo de html" height="80px" class="pt-2">  
+                        </div>
+                    </div>
+                    <p class="text-light lh-1 m-0 fs-2 mt-2">90%</p>
+                    <p class="text-light m-0 opacity-50">HTML 5</p>
+                </div>
+               
+                <div class="d-flex flex-column align-items-center mt-3 mt-md-0">
+                    <div class="circle per-90">
+                        <div class="inner">
+                            <img src="./images/logos/css.png" alt="logo de html" height="90px" class="pt-2">  
+                        </div>
+                    </div>
+                    <p class="text-light lh-1 m-0 fs-2 mt-2">90%</p>
+                    <p class="text-light m-0 opacity-50">CSS</p>
+                </div>
+                
+                <div class="d-flex flex-column align-items-center mt-3 mt-md-0">
+                    <div class="circle per-60">
+                        <div class="inner">
+                            <img src="./images/logos/bootstrap.svg" alt="logo de html" height="65px">  
+                        </div>
+                    </div>
+                    <p class="text-light lh-1 m-0 fs-2 mt-2">60%</p>
+                    <p class="text-light m-0 opacity-50">Bootstrap</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="experiencias" class="color3 py-5">
+        <div class="d-flex justify-content-center align-items-center py-4">
+            <div class="col-10 row g-3">
+                <div class="col">
+                    <h2 class="display-4 text-light text-start fw-bold lh-base m-0">Experiencias laborales</h2>
+                </div>
+                <div class="col py-3">
+                    <div class="border rounded-3 p-3 h-100 punteo-estudios">
+                        <h3 class="text-light fs-2 ms-3">2008-2012</h3>
+                        <p class="text-light ms-3 lead m-0">Trabajo freelance para diversas PyMES</p>
+                    </div>
+                </div>
+                <div class="col py-3">
+                    <div class="border rounded-3 p-3 h-100 punteo-estudios">
+                        <h3 class="text-light fs-2 ms-3">2010-2011</h3>
+                        <p class="text-light ms-3 lead m-0">Desarrollo de una base de datos para la institución educativa Normal Superior N7 de CABA</p>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+
+    <div id="contacto" class="color4 py-5">
+        <div class="d-flex flex-column align-items-center py-4">
+            <div class="d-flex flex-column col-10">
+                <h2 class="display-5 text-center lh-1">Contactame!</h2>
+                <p class="text-center muted mb-3">Los campos señalados con <spam class="txt-color2 fw-bold fs-5">*</spam> son obligatorios</p>
+            </div>
+            <form class="col-8" id="form-contacto">
+                <div class="row">
+                    <div class="col ">
+                        <label class="form-label mb-0" for="nombre">Nombre <spam class="txt-color2 fw-bold fs-5">*</spam></label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="col">
+                        <label class="form-label mb-0" for="apellido">Apellido <spam class="txt-color2 fw-bold fs-5">*</spam></label>
+                        <input type="text" class="form-control" id="apellido" name="apellido" required>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col">
+                        <label class="form-label mb-0" for="email">Email <spam class="txt-color2 fw-bold fs-5">*</spam></label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Ej: direccion@algo.com" required>
+                    </div>
+                    <div class="col">
+                        <label class="form-label mb-0" for="telefono">Telefono <spam class="txt-color2 fw-bold fs-5"></spam></label>
+                        <input type="tel" class="form-control" id="telefono" name="telefono">
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <label for="floatingTextarea">Mensaje <spam class="txt-color2 fw-bold fs-5">*</spam></label>
+                    <textarea class="form-control" placeholder="Escriba aquí su mensaje" id="mensaje" required></textarea>
+                </div>
+
+                <input type="submit" class="btn btn-success color3 border-0 mt-2" id="boton-enviar">
+                
+                <input type="reset" class="btn btn-danger border-0 mt-2" id="boton-borrar">
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="p-3" id="footer">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="col-10 py-2">
+                <p class="text-light text-center fs-3 fw-bold m-0">Kim Hunter</p>
+                <p class="text-light text-center fs-5 mb-2">Curriculum Vitae digital para el curso <br>'Introducción, Primeros pasos en Front-end' de Ticmas Academy</p>
+                <p class="text-light text-center m-0 opacity-50">2022 - Las imagenes fueron obtenidas de Unsplash</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/funciones.js"></script>
+</body>
+</html>
